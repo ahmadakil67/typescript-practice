@@ -15,7 +15,8 @@
 
 
     // Generic Array
-    const user: GenericType<{name: string, age: number}> = [
+    interface User{name: string, age: number}
+    const user: GenericType<User> = [
         {
             name: "Akil",
             age: 25
