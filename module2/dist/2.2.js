@@ -5,12 +5,12 @@
         age: 25,
         role: "Manager",
     };
-    console.log(user1);
-    ;
     const user2 = {
         name: "Akil Ahmad",
         age: 24,
-        role: "HRM"
+        role: "HRM",
     };
-    console.log(user2);
+    const RollNumber = [1, 2, 3, 4];
+    console.log(RollNumber);
+    const add = (num1, num2) => num1 + num2;
 }
