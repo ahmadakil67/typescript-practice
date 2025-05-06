@@ -18,6 +18,12 @@
         }
     }
 
+    // class Student extends BankAccount{
+    //     test(){
+    //         this.
+    //     }
+    // }
+
     const user = new BankAccount(111, "Ahmad Akil", 1000);
     user.addDeposit(100);
     console.log(user.getAmount());

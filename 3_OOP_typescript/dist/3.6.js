@@ -1,25 +1,20 @@
 "use strict";
 {
-    // Access Modifier 
+    // getter setter
     class BankAccount {
         constructor(id, name, _balance) {
             this.id = id;
             this.name = name;
             this._balance = _balance;
         }
-        addDeposit(amount) {
+        set deposit(amount) {
             this._balance = this._balance + amount;
         }
-        getAmount() {
+        get balance() {
             return this._balance;
         }
     }
-    // class Student extends BankAccount{
-    //     test(){
-    //         this.
-    //     }
-    // }
     const user = new BankAccount(111, "Ahmad Akil", 1000);
-    user.addDeposit(100);
-    console.log(user.getAmount());
+    user.deposit = 123;
+    console.log(user.balance);
 }
